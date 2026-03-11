@@ -136,3 +136,29 @@ MonoBehaviour:
   - {fileID: -5627355476832542736}
   - {fileID: -1956406881170377316}
   - {fileID: -2383039380055428478}
+  - {fileID: 274713989241770636}
+--- !u!114 &274713989241770636
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d999b19c3a3a9ca67ba57224b48a51e2, type: 3}
+  m_Name: FullScreenFogVolumeComponent
+  m_EditorClassIdentifier: Assembly-CSharp::FullScreenFogVolumeComponent
+  active: 1
+  FogColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.31412423, g: 0.31412423, b: 0.3679245, a: 1}
+  Density:
+    m_OverrideState: 1
+    m_Value: 2.32
+  FogKnee:
+    m_OverrideState: 1
+    m_Value: 12
+  HeightOffset:
+    m_OverrideState: 1
+    m_Value: 2
