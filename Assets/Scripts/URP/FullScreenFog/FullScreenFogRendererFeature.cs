@@ -45,7 +45,6 @@ public class FullScreenFogRendererFeature : ScriptableRendererFeature
         public FullScreenFogRenderPass(Settings settings)
         {
             this.settings = settings;
-            this.renderPassEvent = settings.renderPassEvent;
             this.material = new Material(settings.shader);
         }
 
@@ -56,6 +55,8 @@ public class FullScreenFogRendererFeature : ScriptableRendererFeature
         /// <param name="frameData"></param>
         public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
         {
+            this.renderPassEvent = settings.renderPassEvent;
+
             if (this.material == null)
                 this.material = new Material(settings.shader);
 
