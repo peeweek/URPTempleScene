@@ -294,6 +294,14 @@
         "com.unity.render-pipelines.core": "17.3.0"
       }
     },
+    "net.peeweek.urp-lowresolutionrenderpass": {
+      "version": "file:D:/git/net.peeweek.urp-lowresolutionrenderpass",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "17.0.0"
+      }
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,

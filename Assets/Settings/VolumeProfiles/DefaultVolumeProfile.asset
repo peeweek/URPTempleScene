@@ -225,6 +225,31 @@ MonoBehaviour:
   cropToFit:
     m_OverrideState: 1
     m_Value: 1
+--- !u!114 &-2318484074603430434
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d999b19c3a3a9ca67ba57224b48a51e2, type: 3}
+  m_Name: FullScreenFog
+  m_EditorClassIdentifier: Assembly-CSharp::FullScreenFog
+  active: 1
+  FogColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.1, g: 0.1, b: 0.12, a: 1}
+  Density:
+    m_OverrideState: 1
+    m_Value: 3
+  FogKnee:
+    m_OverrideState: 1
+    m_Value: 3
+  HeightOffset:
+    m_OverrideState: 1
+    m_Value: 2
 --- !u!114 &-1410297666881709256
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -372,8 +397,8 @@ MonoBehaviour:
   - {fileID: -6288072647309666549}
   - {fileID: 7518938298396184218}
   - {fileID: -1410297666881709256}
-  - {fileID: -7750755424749557576}
-  - {fileID: -5139089513906902183}
+  - {fileID: 4365976063308234360}
+  - {fileID: -2318484074603430434}
 --- !u!114 &853819529557874667
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -730,6 +755,22 @@ MonoBehaviour:
   bladeRotation:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &4365976063308234360
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81eab30664edd03488360fc7b15e88e5, type: 3}
+  m_Name: TestVolume
+  m_EditorClassIdentifier: Assembly-CSharp::TestVolume
+  active: 1
+  SomeParameter:
+    m_OverrideState: 1
+    m_Value: 1
 --- !u!114 &4644742534064026673
 MonoBehaviour:
   m_ObjectHideFlags: 3

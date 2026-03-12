@@ -47,7 +47,6 @@ public class FullScreenFogRendererFeature : ScriptableRendererFeature
             this.settings = settings;
             this.renderPassEvent = settings.renderPassEvent;
             this.material = new Material(settings.shader);
-
         }
 
         /// <summary>
@@ -57,6 +56,9 @@ public class FullScreenFogRendererFeature : ScriptableRendererFeature
         /// <param name="frameData"></param>
         public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
         {
+            if (this.material == null)
+                this.material = new Material(settings.shader);
+
             //base.RecordRenderGraph(renderGraph, frameData);
 
             // First, we poll the values from the active camera stack.
